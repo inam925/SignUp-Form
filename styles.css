@@ -1,0 +1,83 @@
+:root {
+    background: linear-gradient(to right, rgb(248, 188, 198), rgb(238, 100, 100));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.background {
+    opacity: 0.8;
+    position: relative;
+    float: center;
+}
+.backgroundImg {
+    width: 40vw;
+    height: 100vh;
+}
+.logoImg {
+    width: 40px;
+    margin: 0 5px 0 0;
+}
+div > .postal {
+    position: absolute;
+    background-color: gray;
+    background-color: rgba(0, 0, 0, .25);
+    top: 40%;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div > h1 {
+    color: white;
+    /* background-color: gray; */
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+button {
+    background-color: rgb(36, 103, 167);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+a {
+    color: rgb(36, 103, 167);
+}
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+form > section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 10px 10px;
+}
+form > h4 {
+    padding: 10px 10px 10px 20px;
+}
+form > section > section > div{
+    padding: 0 40px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+div > p,
+div > h4 {
+    margin: 0 20px 20px 20px;
+}
+.formDiv {
+    margin: 50px 0 50px 0;
+}
+input:focus {
+    outline: none !important;
+    border: 0.6px solid blue;
+    border-radius: 5px;
+}
+input {
+    padding: 2px;
+}

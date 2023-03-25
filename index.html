@@ -8,6 +8,52 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-
+    <div class="background">
+        <img class="backgroundImg" src="./background.png" alt="logo image">
+        <div class="postal">
+            <img class="logoImg" src="./logo.png" alt="logo">
+            <h1>Postal Service</h1>
+        </div>
+    </div>
+    <div class="formDiv">
+        <h4>This is not a real online service! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam incidunt qui?
+        Aspernatur perspiciatis corrupti, vero facere sapiente libero? Accusamus!</h4>
+        <h4> You know you want to.</h4>
+        <form action="">
+            <h4>Let's do this!</h4>
+            <section>
+                <section class="left">
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" class="error">
+                    </div>
+                </section>
+                <section class="right">
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                    <div>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" class="error" pattern="[0-9]">
+                    </div>
+                </section>
+            </section>
+        </form>
+        <button type="submit"><strong>Create Account</strong> </button>
+        <p>Already have an account? <a href="./index.html">Log in</a></p>
+    </div>
   </body>
 </html>
